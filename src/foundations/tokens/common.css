@@ -1,0 +1,81 @@
+:root {
+  /* Background */
+  --background-default: var(--color-white);
+  --background-deep: var(--color-black);
+
+  /* Text color */
+  --text-color-default: var(--color-black);
+  --text-color-greyed: var(--color-grey-400);
+  --text-color-gradient-start: var(--color-purple);
+  --text-color-gradient-end: var(--color-blue);
+
+  /* Divider */
+  --divider-default: var(--color-grey-100);
+
+  /* Headings */
+  --title-family: var(--font-family-heading);
+  --title-weight-default: var(--text-weight-bold);
+  --title-weight-medium: var(--text-weight-medium);
+  --title-line-height: var(--text-line-base);
+
+  /* Heading 1 */
+  --heading-1-size-lg: var(--font-size-3xl);
+  --heading-1-size-md: var(--font-size-3xl);
+  --heading-1-size-sm: var(--font-size-2xl);
+
+  /* Heading 2 */
+  --heading-2-size-lg: var(--font-size-xl);
+  --heading-2-size-md: var(--font-size-lg);
+  --heading-2-size-sm: var(--font-size-base);
+
+  /* Heading 3 */
+  --heading-3-size-lg: var(--font-size-lg);
+  --heading-3-size-md: var(--font-size-base);
+  --heading-3-size-sm: var(--font-size-base);
+
+  /* Captions */
+  --caption-family: var(--font-family-body);
+
+  /* Caption 1 */
+  --caption-1-size-lg: var(--font-size-lg);
+  --caption-1-size-md: var(--font-size-base);
+  --caption-1-size-sm: var(--font-size-base);
+  --caption-1-color: var(--color-black);
+  --caption-1-weight: var(--text-weight-medium);
+
+  /* Caption 2 */
+  --caption-2-size-lg: var(--font-size-sm);
+  --caption-2-size-md: var(--font-size-xs);
+  --caption-2-size-sm: var(--font-size-xs);
+  --caption-2-color: var(--color-grey-400);
+  --caption-2-weight: var(--text-weight-regular);
+
+  /* Buttons */
+  --button-family: var(--font-family-body);
+  --button-font-size: var(--font-size-base);
+  --button-line-height: var(--text-line-base);
+  --button-weight: var(--text-weight-medium);
+  --button-radius: var(--border-radius-sm);
+
+  /* Spacings */
+  --spacing-2xs: var(--size-2xs);
+  --spacing-xs: var(--size-xs);
+  --spacing-sm: var(--size-sm);
+  --spacing-md: var(--size-md);
+  --spacing-lg: var(--size-lg);
+
+  /* Box */
+  --box-default-border: 1px solid var(--color-grey-100);
+  --box-default-border-radius: var(--border-radius-sm);
+  --box-default-padding: var(--spacing-lg);
+
+  /* Container */
+  --container-max-width-lg: 1280px;
+  --container-max-width-md: 864px;
+  --container-default-padding: var(--spacing-md);
+
+  /* Hero */
+  --hero-image-max-height-sm: 240px;
+  --hero-image-max-height-md: 560px;
+  --hero-image-max-height-lg: 560px;
+}
